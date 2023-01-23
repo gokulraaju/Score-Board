@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(247, 243, 250);
+}
+.title{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    text-shadow: 5px 5px 12px grey;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+.scores1{
+    border: 3px solid black;
+    margin-top: 60px ;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 100px;
+    background-color: rgb(75, 17, 73);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    border: none;
+    margin-left: 250px;
+}
+.scores2{
+    border: 3px solid black;
+    margin-top: 60px ;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 120px;
+    background-color: rgb(75, 17, 73);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    margin-right: 250px;
+    border: none;
+}
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 5px;
+    border: none;
+    margin-left: 5px;
+    background-color: rgb(248, 250, 248);
+}
+#score1{
+    margin-top: 50px;
+    padding: 40px;
+    width: 100px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    border: none;
+    color:red;
+}
+#score2{
+    margin-top: 50px;
+    padding: 40px;
+    width: 100px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(18, 17, 17);
+    text-align: center;
+    border: none;
+    color:red;
+
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 210);
+    padding-top: 20px;
+    text-align: center;
+}
+#score1{
+    display: list-item;
+}
+#score2{
+    display: list-item;
+}
+#newGame{
+    margin-left: 675px;
+    margin-top:30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-color: rgb(57, 200, 57);
+    color: whitesmoke;
+    font-size:15px;
+    font-style: bold;
+    font-family: cursedTimer;
+    border: none;
+}
+.lead{
+    margin-top: 200px;
+}
+#maximum{
+    color:green;
+    font-style: bold;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-style: dashed;
+    width: 80px;
+    height: 20px;
+}
+#pWin{
+    color:green;
+    font-style: bold;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-style: dashed;
+    width: 80px;
+    height: 20px;
+}

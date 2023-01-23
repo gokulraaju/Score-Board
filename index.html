@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gokul BasketBall ScoreCard</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <h1 class="title">GOKUL'S  SCORE  BOARD</h1>
+        <div class="container">
+            
+            <div class="scores1">
+                <h1>TEAM A</h1>
+                <input type="text" id="score1" placeholder="0" readonly>
+                <button class="btn" onclick="one_1()" id="1_plus1" type="submit" >+1</button>
+                <button class="btn" onclick="one_2()" id="1_plus2" type="submit">+2</button>
+                <button class="btn" onclick="one_3()" id="1_plus3" type="submit">+3</button>
+            </div>
+            <div>
+                <h3 class="lead" id="lead">LEAD</h3>
+                <p  id="maximum"></p>
+                <h3 class="pWinner">PREVIOUS WINNER</h3>
+                <p id="pWin"></p>
+            </div>
+            <div class="scores2">
+                <h1>TEAM B</h1>
+                <input type="text" id="score2" placeholder="0" readonly>
+                <button class="btn" onclick="two_1()" id="2_plus1" type="submit">+1</button>
+                <button class="btn" onclick="two_2()" id="2_plus2" type="submit">+2</button>
+                <button class="btn" onclick="two_3()" id="2_plus3" type="submit">+3</button>
+            </div>
+        </div>
+        <div class="newgamecontainer">
+            <button onclick="newGame()" type="submit" id="newGame" value="newGame">NEW GAME</button>
+        </div>
+    </body>
+    <script src="index.js">
+    </script>
+</html>
